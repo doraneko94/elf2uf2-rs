@@ -14,6 +14,9 @@ pub const UF2_FLAG_FAMILY_ID_PRESENT: u32 = 0x00002000;
 pub const UF2_FLAG_MD5_PRESENT: u32 = 0x00004000;
 
 pub const RP2040_FAMILY_ID: u32 = 0xe48bff56;
+pub const RP2350_ARM_S: u32 = 0xe48bff59;
+pub const RP2350_RISCV: u32 = 0xe48bff5a;
+pub const RP2350_ARM_NS: u32 = 0xe48bff5b;
 
 #[repr(packed)]
 #[derive(IntoBytes, FromBytes, Immutable)]
